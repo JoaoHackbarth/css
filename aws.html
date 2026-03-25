@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <style>
             div{
                 border: 2px solid #333;
@@ -11,27 +14,52 @@
                 background-color: white;
                 width: 720px;
                 text-align: center;
+                font-family: "Roboto", sans-serif;
             }
             .ti{
                 color: black;
                 text-align: left;
                 padding-left: 20px;
+                font-family: "Roboto", sans-serif;
 
             }
             .pi{
                 color: #333;
                 text-align: left;
                 padding-left: 20px;
-                letter-spacing: 0.5px;
+                letter-spacing: 0px;
                 padding-right: 20px;
+                font-family: "Roboto", sans-serif;
+            }
+            .si{
+                color: lightgrey;
+                text-align: left;
+                padding-left: 20px;
+                font-family: "Roboto", sans-serif;
+            }
+            a{
+                color: grey;
+                position: relative;
+                padding-right: 20px;
+                font-family: "Roboto", sans-serif;
+                float: right;
+            }
+            .se{
+                position: relative;
+                margin: 5px;
+                margin-right: 20px;
+                border: 10px 20px;
+                border-color: lightgrey;
+                border-radius: 15px; 
+                background-color: white; 
             }
         </style>
     </head>
     <body>
         <div>
-            <p class="ti"><i class="fa-chisel fa-regular fa-alarm-clock"></i> aws4embeddedlinux / meta-aws</p>
-            <p class="pi">The metadata layer for baking AWS device software to Embedded Linux distributions built by the</p>
-            <p class="pi">Yocto Project build system.</p>
+            <p class="ti"><i class="fa-brands fa-aws"></i><strong>&nbsp;&nbsp;aws4embeddedlinux / meta-aws</strong><a class="se"><i class="fa-regular fa-star" style="color: rgb(164, 174, 178);">&nbsp;&nbsp;</i>&nbsp;Star&nbsp;|&nbsp;<i class="fa-solid fa-angle-down" style="color: rgb(164, 174, 178);"></i></a></p>
+            <p class="pi">The metadata layer for baking AWS device software to Embedded Linux distributions built by the Yocto Project build system</p>
+            <p class="si"><i class="fa-solid fa-circle" style="color: rgb(116, 192, 252);"></i> BitBake &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-star" style="color: rgb(164, 174, 178);">&nbsp;85</i></p>
         </div>
     </body>
 </html>
